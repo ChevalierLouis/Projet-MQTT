@@ -1,4 +1,10 @@
-# Projet MQTT
+
+
+
+
+
+
+  # Projet MQTT
 
 Ce projet contient 3 programmes en C++ pour la communication en MQTT: 
 
@@ -43,6 +49,8 @@ Avant d'exécuter les programmes, assurez-vous que votre broker MQTT est en cour
 - Le programme se connecte au broker MQTT et souscrit au topic `/ynov/bordeaux/`.
 - Le programme répond avec une blague à tout message reçu contenant le mot "qui".
 - Le programme se termine après avoir répondu à un message.
+
+https://user-images.githubusercontent.com/44653107/232223271-11f3957d-ca39-467d-a507-400f69a2f921.mp4
 
 ## Auteur
 
