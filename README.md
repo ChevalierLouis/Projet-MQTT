@@ -24,34 +24,39 @@ Ce projet contient 3 programmes en C++ pour la communication en MQTT:
 3. Naviguer vers le dossier `build`: `cd build`
 4. Générer les fichiers de configuration pour le projet avec CMake: `cmake ..`
 5. Compiler le projet: `make`
-6. Les exécutables générés (`pub`, `sub`, et `joke`) se trouvent dans les dossier `build`.
+6. Les exécutables générés (`my_pub`, `my_sub`, et `my_joke`) se trouvent dans les dossier `build`.
 
 ## Utilisation
 
 Avant d'exécuter les programmes, assurez-vous que votre broker MQTT est en cours d'exécution et accessible depuis le réseau. Les programmes sont utilisables de la manière suivante:
 
-### `pub`
+### pub
 
-- Syntaxe: `./pub`
+- Syntaxe: `./my_pub`
 - Le programme vous invite à saisir le message à publier.
 - Une fois le message saisi, le programme le publie sur le topic `/ynov/bordeaux/`.
 - Le programme continue jusqu'à ce que l'utilisateur l'arrête (en appuyant sur Ctrl-C).
 
-### `sub`
+### sub
 
-- Syntaxe: `./sub`
+- Syntaxe: `./my_sub`
 - Le programme se connecte au broker MQTT et souscrit au topic `/ynov/bordeaux/`.
 - Le programme affiche tous les messages reçus sur ce topic jusqu'à ce que l'utilisateur l'arrête (en appuyant sur Ctrl-C).
 
-### `joke`
+### joke
 
-- Syntaxe: `./joke`
+- Syntaxe: `./my_joke`
 - Le programme se connecte au broker MQTT et souscrit au topic `/ynov/bordeaux/`.
 - Le programme répond avec une blague à tout message reçu contenant le mot "qui".
 - Le programme se termine après avoir répondu à un message.
 
-
+  #### Démonstration
+  https://user-images.githubusercontent.com/44653107/232345077-01aee7f7-c9ad-405b-8310-409528b97ba5.mp4
 ## Auteur
 
 [Louis CHEVALIER](https://github.com/ChevalierLouis)
+
+
+
+
 
