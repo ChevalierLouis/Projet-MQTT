@@ -21,10 +21,11 @@ Ce projet contient 3 programmes en C++ pour la communication en MQTT:
 
 1. Cloner le projet à partir du repo Github: `git clone https://github.com/username/mqtt-project.git`
 2. Naviguer vers le dossier du projet: `cd pub` ou `cd sub` ou `cd joke` 
-3. Naviguer vers le dossier `build`: `cd build`
-4. Générer les fichiers de configuration pour le projet avec CMake: `cmake ..`
-5. Compiler le projet: `make`
-6. Les exécutables générés (`my_pub`, `my_sub`, et `my_joke`) se trouvent dans les dossier `build`.
+3. Créer un dossier `build`: `mkdir build`
+4. Naviguer vers le dossier `build`: `cd build`
+5. Générer les fichiers de configuration pour le projet avec CMake: `cmake ..`
+6. Compiler le projet: `make`
+7. Les exécutables générés (`my_pub`, `my_sub`, et `my_joke`) se trouvent dans les dossier `build`.
 
 ## Utilisation
 
