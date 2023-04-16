@@ -1,0 +1,38 @@
+TD : Communication MQTT via des outils graphiques
+
+Sujet : Utilisation de MQTTX ou MQTT Explorer pour se connecter à un broker public sans authentification, s'abonner à un topic et publier un message sur ce même topic.
+
+Broker public : broker.emqx.io, port 1883
+
+Topic : /ynov/bordeaux/
+
+Message : votre prénom
+
+Notation :
+
++1 point si vous réussissez à publier sur le topic
++2 points si vous envoyez une capture d'écran de la réception du message
+
+-------------------------------------------------------------------
+
+
+TP : Communication MQTT en C++
+
+Sujet : Utilisation de la bibliothèque de votre choix en C++, telle que Paho, si vous n'avez pas d'idée de bibliothèque, pour réaliser deux programmes.
+
+1) Le premier programme doit :
+  - Se connecter au même broker que celui du TD et s'abonner au même topic.
+  - Afficher le contenu des messages lus à l'aide de la commande "std::cout << ... << std::endl;"
+  
+2) Le deuxième programme doit :
+  - Envoyer un message depuis C++ sur le même topic et broker, avec le message "prenom"
+  
+Notation :
+ Envoyez une capture d'écran de l'IDE avec le terminal qui affiche le message envoyé depuis le deuxième programme.
+ Commitez votre code sur un repo de votre choix et envoyez-moi un lien du projet.
+ +3 points si la capture d'écran affiche correctement le message.
+ +4 points si le code est propre, conforme au PAQL, gère les exceptions et que les noms de fonctions et variables sont explicites.
+ 
+ Bonus +1 si vous réussissez à me faire rire, que ce soit dans le code, les commentaires ou le message.
+ 
+Notation globale sur 10 (11 avec bonus).
