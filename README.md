@@ -19,7 +19,7 @@ Ce projet contient 3 programmes en C++ pour la communication en MQTT:
 
 ## Installation
 
-1. Cloner le projet à partir du repo Github: `git clone https://github.com/username/mqtt-project.git`
+1. Cloner le projet à partir du repo Github: `git clone https://github.com/ChevalierLouis/Projet-MQTT.git`
 2. Naviguer vers le dossier du projet: `cd pub` ou `cd sub` ou `cd joke` 
 3. Créer un dossier `build`: `mkdir build`
 4. Naviguer vers le dossier `build`: `cd build`
