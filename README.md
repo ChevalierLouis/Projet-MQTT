@@ -49,7 +49,7 @@ Avant d'exécuter les programmes, assurez-vous que votre broker MQTT est en cour
 - Syntaxe: `./my_joke`
 - Le programme se connecte au broker MQTT et souscrit au topic `/ynov/bordeaux/`.
 - Le programme répond avec une blague à tout message reçu contenant le mot "qui".
-- Le programme se termine après avoir répondu à un message.
+- Le programme se termine quand l'utilisateur l'arrête (en appuyant sur Ctrl-C).
 
   #### Démonstration
   https://user-images.githubusercontent.com/44653107/232345077-01aee7f7-c9ad-405b-8310-409528b97ba5.mp4
